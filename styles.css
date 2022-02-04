@@ -3,10 +3,189 @@
 }
 
 .header {
-    padding: 10px 16px;
-    background-color: #fcd670;
-    color: #080e2c;
     position: fixed;
-    margin: 8px;
-    width: 96%;
+    background-color: #1A2238;
+    color: white;
+    padding: 8px 12px;
+    width: 97.5%;
+}
+
+.logo {
+    font-size: 27px;
+    font-weight: bold;
+}
+.logo-orange {
+    font-size: 22px;
+    font-weight: bold;
+    color: #FF6A3D;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.header-right {
+    display: inline;
+    float: right;
+    margin: 0 15px;
+    overflow: hidden;
+    padding-top: 7px;
+    padding-right: 7px;
+}
+.header-right a {
+    padding-right: 12px;
+}
+
+.header-right a:hover {
+    color: #9DAAF2;
+    font-weight: bold;
+}
+
+.header-bottom {
+    background-color: #1A2238;
+    padding: 8px 10px;
+    width: 98.5%;
+    font-size: 18px;
+}
+
+.header-bottom a:hover {
+    color: #9DAAF2;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #1A2238;
+    color: #FF6A3D;
+    display: inline;
+    padding: 8px 10px;
+}
+
+.footer-link {
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.footer-link:hover {
+    color: #9DAAF2;
+    font-weight: bold;
+}
+
+.welcome {
+    margin: 9%;
+    font-size: 30px;
+    text-align: justify;
+}
+
+.connections-content {
+    margin: 10%;
+}
+
+.connection-catagory {
+    list-style: none;
+    font-size: 25px;
+}
+
+.connection-heading {
+    font-size: 30px;
+}
+
+.connection-link {
+    color: black;
+}
+
+.connection-link:hover {
+    color: #FF6A3D;
+    font-weight: bold;
+}
+
+.connection-detail-content {
+    margin: 9%;
+}
+
+.connection-logo {
+    width: 400px;
+    float: right;
+}
+
+.connection-title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.button {
+    background-color:#1A2238;
+    padding: 6px;
+
+}
+
+.button:hover {
+    color:#9DAAF2;
+    font-weight: bold;
+}
+
+.connection-information {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.connection-detail-header {
+    font-size: 30px;
+    font-weight: bold;
+    color:#FF6A3D;
+    text-align: center;
+}
+
+.new-connection-content {
+    margin: 9%;
+}
+
+.connection-details {
+    text-align: justify;
+    font-size: 18px;
+    padding-top: 5px;
+}
+
+.new-connection-content form {
+    font-size: 22px;
+    width: 50%;
+}
+
+.new-connection-content label {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.new-connection-content input {
+    font-size: 18px;
+    width: 300px;
+}
+
+.new-connection-header {
+    font-size: 30px;
+    color:#FF6A3D;
+}
+
+.submit-button {
+    background-color:#1A2238;
+    color: white;
+    padding: 6px 12px;
+    margin-left: 105px;
+    border-style: none;
+}
+
+.submit-button:hover {
+    color:#FF6A3D;
+    font-weight: bold;
+    cursor:progress;
+}
+
+textarea {
+    color: gray;
+    font-size: 18px;
 }

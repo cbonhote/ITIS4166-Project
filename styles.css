@@ -1,191 +1,190 @@
 * {
-    font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 .header {
-    position: fixed;
-    background-color: #1A2238;
-    color: white;
-    padding: 8px 12px;
-    width: 97.5%;
+  position: fixed;
+  background-color: #1a2238;
+  color: white;
+  padding: 8px 12px;
+  width: 97.5%;
 }
 
 .logo {
-    font-size: 27px;
-    font-weight: bold;
+  font-size: 27px;
+  font-weight: bold;
 }
 .logo-orange {
-    font-size: 22px;
-    font-weight: bold;
-    color: #FF6A3D;
+  font-size: 22px;
+  font-weight: bold;
+  color: #ff6a3d;
 }
 
 a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 .header-right {
-    display: inline;
-    float: right;
-    margin: 0 15px;
-    overflow: hidden;
-    padding-top: 7px;
-    padding-right: 7px;
+  display: inline;
+  float: right;
+  margin: 0 15px;
+  overflow: hidden;
+  padding-top: 7px;
+  padding-right: 7px;
 }
 .header-right a {
-    padding-right: 12px;
+  padding-right: 12px;
 }
 
 .header-right a:hover {
-    color: #9DAAF2;
-    font-weight: bold;
+  color: #9daaf2;
+  font-weight: bold;
 }
 
 .header-bottom {
-    background-color: #1A2238;
-    padding: 8px 10px;
-    width: 98.5%;
-    font-size: 18px;
+  background-color: #1a2238;
+  padding: 8px 10px;
+  width: 98.5%;
+  font-size: 18px;
 }
 
 .header-bottom a:hover {
-    color: #9DAAF2;
-    font-weight: bold;
+  color: #9daaf2;
+  font-weight: bold;
 }
 
 footer {
-    background-color: #1A2238;
-    color: #FF6A3D;
-    display: inline;
-    padding: 8px 10px;
+  background-color: #1a2238;
+  color: #ff6a3d;
+  display: inline;
+  padding: 8px 10px;
 }
 
 .footer-link {
-    color: white;
-    padding-left: 10px;
-    padding-right: 10px;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .footer-link:hover {
-    color: #9DAAF2;
-    font-weight: bold;
+  color: #9daaf2;
+  font-weight: bold;
 }
 
 .welcome {
-    margin: 9%;
-    font-size: 30px;
-    text-align: justify;
+  margin: 9%;
+  font-size: 30px;
+  text-align: justify;
 }
 
 .connections-content {
-    margin: 10%;
+  margin: 10%;
 }
 
 .connection-catagory {
-    list-style: none;
-    font-size: 25px;
+  list-style: none;
+  font-size: 25px;
 }
 
 .connection-heading {
-    font-size: 30px;
+  font-size: 30px;
 }
 
 .connection-link {
-    color: black;
+  color: black;
 }
 
 .connection-link:hover {
-    color: #FF6A3D;
-    font-weight: bold;
+  color: #ff6a3d;
+  font-weight: bold;
 }
 
 .connection-detail-content {
-    margin: 9%;
+  margin: 9%;
 }
 
 .connection-logo {
-    width: 400px;
-    float: right;
+  width: 400px;
+  float: right;
 }
 
 .connection-title {
-    font-size: 30px;
-    font-weight: bold;
-    margin-bottom: 10px;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 
 .button {
-    background-color:#1A2238;
-    padding: 6px;
-
+  background-color: #1a2238;
+  padding: 6px;
 }
 
 .button:hover {
-    color:#9DAAF2;
-    font-weight: bold;
+  color: #9daaf2;
+  font-weight: bold;
 }
 
 .connection-information {
-    font-weight: bold;
-    font-size: 18px;
+  font-weight: bold;
+  font-size: 18px;
 }
 
 .connection-detail-header {
-    font-size: 30px;
-    font-weight: bold;
-    color:#FF6A3D;
-    text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: #ff6a3d;
+  text-align: center;
 }
 
 .new-connection-content {
-    margin: 9%;
+  margin: 9%;
 }
 
 .connection-details {
-    text-align: justify;
-    font-size: 18px;
-    padding-top: 5px;
+  text-align: justify;
+  font-size: 18px;
+  padding-top: 5px;
 }
 
 .new-connection-content form {
-    font-size: 22px;
-    width: 50%;
+  font-size: 22px;
+  width: 50%;
 }
 
 .new-connection-content label {
-    display: inline-block;
-    width: 100px;
-    text-align: right;
-    margin-bottom: 10px;
-    text-align: center;
+  display: inline-block;
+  width: 100px;
+  text-align: right;
+  margin-bottom: 10px;
+  text-align: center;
 }
 
 .new-connection-content input {
-    font-size: 18px;
-    width: 300px;
+  font-size: 18px;
+  width: 300px;
 }
 
 .new-connection-header {
-    font-size: 30px;
-    color:#FF6A3D;
+  font-size: 30px;
+  color: #ff6a3d;
 }
 
 .submit-button {
-    background-color:#1A2238;
-    color: white;
-    padding: 6px 12px;
-    margin-left: 105px;
-    border-style: none;
+  background-color: #1a2238;
+  color: white;
+  padding: 6px 12px;
+  margin-left: 105px;
+  border-style: none;
 }
 
 .submit-button:hover {
-    color:#FF6A3D;
-    font-weight: bold;
-    cursor:progress;
+  color: #ff6a3d;
+  font-weight: bold;
+  cursor: progress;
 }
 
 textarea {
-    color: gray;
-    font-size: 18px;
+  color: gray;
+  font-size: 18px;
 }

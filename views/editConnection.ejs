@@ -1,0 +1,28 @@
+<%- include('./partials/header.ejs')%>
+
+    <div class="new-connection-content">
+            <h3 class="new-connection-header"">Edit a Connection</h3>
+            <form action="views/connections.html">
+                <label for="topic">Topic</label>
+                <input type="text" id="topic" name="topic" text=<%=connection.topic%>><br>
+                <label for="title">Title</label>
+                <input type="text" id="title" name="title" text=<%=connection.namec%>><br>
+                <label for="host">Host</label>
+                <input type="text" id="host" name="host" text=<%=connection.host%>><br>
+                <label for="details">Details</label>
+                <textarea id="details" name="details" rows="5" cols="47"><%=connection.details%></textarea><br>
+                <label for="where">Where</label>
+                <input type="text" id="where" name="where" text=<%=connection.location%>><br>
+                <label for="date">Date</label>
+                <input type="date" id="date" name="date"><br>
+                <label for="start">Start</label>
+                <input type="time" id="start" name="start"><br>
+                <label for="end">End</label>
+                <input type="time" id="end" name="end"><br>
+                <label for="image">Image URL</label>
+                <input type="url" id="image" name="image" placeholder="image-url"><br>
+                <input type="submit" class="submit-button">
+            </form>
+    </div>
+<%- include('./partials/footer.ejs')%>
+ 

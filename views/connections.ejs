@@ -1,0 +1,43 @@
+<%- include('./partials/header.ejs')%>
+
+    <div class="connections-content">
+      <h3 class="connection-heading">Current Connection Listings...</h3>
+      <ul>
+        <li class="connection-catagory">
+          Study
+          <ul>
+            <li>
+              <a class="connection-link" href="/connections/1"
+                ><%=connections[0].name%></a>
+            </li>
+            <li>
+              <a class="connection-link" href="/connections/2"
+                ><%=connections[1].name%></a>
+            </li>
+            <li>
+              <a class="connection-link" href="/connections/3"
+                ><%=connections[2].name%></a>
+            </li>
+          </ul>
+        </li>
+        <li class="connection-catagory">
+          Events
+          <ul>
+            <li>
+              <a class="connection-link" href="/connections/4"
+                ><%=connections[3].name%></a>
+            </li>
+            <li>
+              <a class="connection-link" href="/connections/5"
+                ><%=connections[4].name%></a>
+            </li>
+            <li>
+              <a class="connection-link" href="/connections/6"
+                ><%=connections[5].name%></a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
+<%- include('./partials/footer.ejs')%>

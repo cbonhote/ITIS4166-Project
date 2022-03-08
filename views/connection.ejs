@@ -1,0 +1,28 @@
+<%- include('./partials/header.ejs')%>
+
+    <div class="connection-detail-content">
+      <p class="connection-title"><%= connection.name %></p>
+      <a class="button" href="/connections/<%= connection.id %>/edit">Update</a>
+      <a class="button" href="/connections">Delete</a>
+      <img
+        src="public/images/uncc-logo.png"
+        alt="UNCC Computing and Informatics Logo"
+        class="connection-logo"
+      />
+
+      <div class="connection-information">
+        <br /><br />
+        <p>Connection Catagory: <%= connection.topic %></p>
+        <p>Hosted by <%= connection.host %></p>
+        <p><%= connection.date %></p>
+        <p><%= connection.startTime %> to <%= connection.endTime %></p>
+        <p><%= connection.location %></p>
+      </div>
+
+      <p class="connection-detail-header">Details</p>
+      <p class="connection-details">
+        <%= connection.details %>
+      </p>
+    </div>
+<%- include('./partials/footer.ejs')%>
+
